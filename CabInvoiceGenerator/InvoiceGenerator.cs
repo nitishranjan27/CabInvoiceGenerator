@@ -96,6 +96,7 @@ namespace CabInvoiceGenerator
             double totalFare = 0;
             try
             {
+                //calculating total fare for all rides
                 foreach (Ride ride in rides)
                 {
                     totalFare += this.CalculateFare(ride.distance, ride.time);
@@ -147,7 +148,7 @@ namespace CabInvoiceGenerator
             }
             catch (CabInvoiceException)
             {
-                throw new CabInvoiceException(CabInvoiceException.ExceptionType.INVALID_USER_ID, "Invalid User Id");
+                throw new CabInvoiceException(CabInvoiceException.ExceptionType.INVALID_USER_ID, "Invalid UserId");
             }
         }
 
