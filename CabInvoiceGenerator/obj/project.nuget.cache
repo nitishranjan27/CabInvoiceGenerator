@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7zT6jUTYfKVabSPNwYirUm5piAwFL9yp/L0i5TK+l945p0eoRWrI3kUqyp0tjEcHzxYLk3E4P1trH1PcJT0tUQ==",
+  "dgSpecHash": "SEyOTcrMsUI+gv8E5qnxQqa4FPiyvrno02FGTFk00gAdnn+7wT5jNZX2NWweWLo/KLbAL3QT8TAK4haZ4pM9ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\NITISH KUMAR\\Desktop\\Cab\\CabInvoiceGenerator\\CabInvoiceGenerator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\NITISH KUMAR\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\NITISH KUMAR\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\NITISH KUMAR\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
   "logs": []
 }
